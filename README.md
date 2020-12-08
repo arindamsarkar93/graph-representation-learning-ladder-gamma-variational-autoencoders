@@ -14,12 +14,11 @@ python train.py --dataset citeseer --hidden 64_32 --use_kl_warmup 1 --epochs 100
 Please cite our paper if you use this code in your own work:
 
 ```
-
 @article{Sarkar_Mehta_Rai_2020, 
-title={Graph Representation Learning via Ladder Gamma Variational Autoencoders}, 
-volume={34}, url={https://ojs.aaai.org/index.php/AAAI/article/view/6013}, DOI={10.1609/aaai.v34i04.6013}, 
-number={04}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
-author={Sarkar, Arindam and Mehta, Nikhil and Rai, Piyush}, year={2020}, month={Apr.}, 
-pages={5604-5611} }
-
+  title={Graph Representation Learning via Ladder Gamma Variational Autoencoders}, 
+  volume={34}, url={https://ojs.aaai.org/index.php/AAAI/article/view/6013}, DOI={10.1609/aaai.v34i04.6013}, 
+  number={04}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Sarkar, Arindam and Mehta, Nikhil and Rai, Piyush}, year={2020}, month={Apr.}, 
+  pages={5604-5611} 
+ }
 ```
