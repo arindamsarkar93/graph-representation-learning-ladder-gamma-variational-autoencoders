@@ -9,9 +9,11 @@ python train.py --dataset cora --hidden 64_32 --use_kl_warmup 1 --epochs 500 --c
 ## Example usage for semisupervised node classification:
 python train.py --dataset citeseer --hidden 64_32 --use_kl_warmup 1 --epochs 100  --weight_decay 5e-3 --semisup_train 1 --dropout 0.5 --reconstruct_x 1
 
-Cite
+## Cite
 
 Please cite our paper if you use this code in your own work:
+
+```
 
 @article{Sarkar_Mehta_Rai_2020, 
 title={Graph Representation Learning via Ladder Gamma Variational Autoencoders}, 
@@ -20,3 +22,4 @@ number={04}, journal={Proceedings of the AAAI Conference on Artificial Intellige
 author={Sarkar, Arindam and Mehta, Nikhil and Rai, Piyush}, year={2020}, month={Apr.}, 
 pages={5604-5611} }
 
+```
